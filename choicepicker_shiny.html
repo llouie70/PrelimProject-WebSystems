@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice Picker</title>
+    <link rel="stylesheet" href="palette2.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <h2>Welcome to the Choice Picker!</h2>
+        <h3>If you are unable to decide what to choose between choices, your answer is here!</h3>
+        <label for="choices">Choices (please use commas to separate the choices):</label>
+        <textarea id="choicearea" required></textarea>
+        <p>I choose:</p>
+        <div class="img-container">
+            <img src="8ball_shiny.png">
+            <div class="centered" id="choiceresponse"></div>
+        </div>
+        <br>
+        <button type="button" id="pickforme">Let me Choose!</button>
+        <a href="welcomepage_shiny.html">Back</a>
+    </div>
+    <script src="choicer.js"></script>
+</body>
+</html>

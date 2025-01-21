@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Conventional Dice</title>
+    <link rel="stylesheet" href="palette1.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="container">
+        <h2>Welcome to the Non-Conventional Dice!</h2>
+        <h3>If you need to pick a number between two specific numbers but you cannot decide, your answer is here!</h3>
+        <label for="minimumnum">Minimum Number:</label>
+        <input type="number" id="minimumnum" name="minimumnum" min="1" value="1" required>
+        <label for="password">Maximum Number:</label>
+        <input type="number" id="maximumnum" name="maximumnum" min="2" value="6" required>
+        <p id="rollnum">You rolled a:</p>
+        <button type="button" id="rolldice">Roll the Dice!</button>
+        <a href="welcomepage.html">Back</a>
+    </div>
+    <script src="dice.js"></script>
+</body>
+</html>
